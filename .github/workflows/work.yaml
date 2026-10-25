@@ -1,6 +1,7 @@
 name: jd_action
 
 on:
+  workflow_dispatch:
   repository_dispatch:
   release:
     types: published
